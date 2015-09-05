@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07223EFC1B9A7EB600D1E12B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223EFB1B9A7EB600D1E12B /* main.m */; };
+		07223EFF1B9A7EB600D1E12B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223EFE1B9A7EB600D1E12B /* AppDelegate.m */; };
+		07223F021B9A7EB600D1E12B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F011B9A7EB600D1E12B /* ViewController.m */; };
+		07223F051B9A7EB600D1E12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07223F031B9A7EB600D1E12B /* Main.storyboard */; };
+		07223F071B9A7EB600D1E12B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07223F061B9A7EB600D1E12B /* Images.xcassets */; };
+		07223F0A1B9A7EB600D1E12B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07223F081B9A7EB600D1E12B /* LaunchScreen.xib */; };
+		07223F161B9A7EB600D1E12B /* Pi_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F151B9A7EB600D1E12B /* Pi_CalculatorTests.m */; };
+		07223F281B9A833F00D1E12B /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F201B9A833F00D1E12B /* Calculator.m */; };
+		07223F291B9A833F00D1E12B /* Permutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F221B9A833F00D1E12B /* Permutation.m */; };
+		07223F2A1B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F251B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.m */; };
+		07223F2B1B9A833F00D1E12B /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F271B9A833F00D1E12B /* Database.m */; };
+		07223F311B9A8CDF00D1E12B /* pi.png in Resources */ = {isa = PBXBuildFile; fileRef = 07223F2F1B9A8CDF00D1E12B /* pi.png */; };
+		07223F321B9A8CDF00D1E12B /* pi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07223F301B9A8CDF00D1E12B /* pi@2x.png */; };
+		07223F351B9A94AA00D1E12B /* CalculationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07223F341B9A94AA00D1E12B /* CalculationOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07223F101B9A7EB600D1E12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07223EEE1B9A7EB600D1E12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07223EF51B9A7EB600D1E12B;
+			remoteInfo = Pi_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07223EF61B9A7EB600D1E12B /* Pi_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pi_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07223EFA1B9A7EB600D1E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07223EFB1B9A7EB600D1E12B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07223EFD1B9A7EB600D1E12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07223EFE1B9A7EB600D1E12B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07223F001B9A7EB600D1E12B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07223F011B9A7EB600D1E12B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07223F041B9A7EB600D1E12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07223F061B9A7EB600D1E12B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07223F091B9A7EB600D1E12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07223F0F1B9A7EB600D1E12B /* Pi_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pi_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07223F141B9A7EB600D1E12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07223F151B9A7EB600D1E12B /* Pi_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pi_CalculatorTests.m; sourceTree = "<group>"; };
+		07223F1F1B9A833F00D1E12B /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		07223F201B9A833F00D1E12B /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		07223F211B9A833F00D1E12B /* Permutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Permutation.h; sourceTree = "<group>"; };
+		07223F221B9A833F00D1E12B /* Permutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Permutation.m; sourceTree = "<group>"; };
+		07223F231B9A833F00D1E12B /* AdvancedScience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedScience.h; sourceTree = "<group>"; };
+		07223F241B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomewhatBiggerNumbersThanYours.h; sourceTree = "<group>"; };
+		07223F251B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomewhatBiggerNumbersThanYours.m; sourceTree = "<group>"; };
+		07223F261B9A833F00D1E12B /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		07223F271B9A833F00D1E12B /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		07223F2F1B9A8CDF00D1E12B /* pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pi.png; sourceTree = "<group>"; };
+		07223F301B9A8CDF00D1E12B /* pi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pi@2x.png"; sourceTree = "<group>"; };
+		07223F331B9A94AA00D1E12B /* CalculationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationOperation.h; sourceTree = "<group>"; };
+		07223F341B9A94AA00D1E12B /* CalculationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CalculationOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		07223F361B9AB7E100D1E12B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07223EF31B9A7EB600D1E12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07223F0C1B9A7EB600D1E12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07223EED1B9A7EB600D1E12B = {
+			isa = PBXGroup;
+			children = (
+				07223EF81B9A7EB600D1E12B /* Pi_Calculator */,
+				07223F121B9A7EB600D1E12B /* Pi_CalculatorTests */,
+				07223EF71B9A7EB600D1E12B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07223EF71B9A7EB600D1E12B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07223EF61B9A7EB600D1E12B /* Pi_Calculator.app */,
+				07223F0F1B9A7EB600D1E12B /* Pi_CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07223EF81B9A7EB600D1E12B /* Pi_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				07223F2C1B9A834600D1E12B /* AdvancedScience */,
+				07223EFD1B9A7EB600D1E12B /* AppDelegate.h */,
+				07223EFE1B9A7EB600D1E12B /* AppDelegate.m */,
+				07223F001B9A7EB600D1E12B /* ViewController.h */,
+				07223F011B9A7EB600D1E12B /* ViewController.m */,
+				07223F031B9A7EB600D1E12B /* Main.storyboard */,
+				07223F061B9A7EB600D1E12B /* Images.xcassets */,
+				07223F081B9A7EB600D1E12B /* LaunchScreen.xib */,
+				07223EF91B9A7EB600D1E12B /* Supporting Files */,
+				07223F331B9A94AA00D1E12B /* CalculationOperation.h */,
+				07223F341B9A94AA00D1E12B /* CalculationOperation.m */,
+			);
+			path = Pi_Calculator;
+			sourceTree = "<group>";
+		};
+		07223EF91B9A7EB600D1E12B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07223F371B9AC0B600D1E12B /* Images */,
+				07223EFA1B9A7EB600D1E12B /* Info.plist */,
+				07223EFB1B9A7EB600D1E12B /* main.m */,
+				07223F361B9AB7E100D1E12B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07223F121B9A7EB600D1E12B /* Pi_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				07223F151B9A7EB600D1E12B /* Pi_CalculatorTests.m */,
+				07223F131B9A7EB600D1E12B /* Supporting Files */,
+			);
+			path = Pi_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		07223F131B9A7EB600D1E12B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07223F141B9A7EB600D1E12B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07223F2C1B9A834600D1E12B /* AdvancedScience */ = {
+			isa = PBXGroup;
+			children = (
+				07223F1F1B9A833F00D1E12B /* Calculator.h */,
+				07223F201B9A833F00D1E12B /* Calculator.m */,
+				07223F211B9A833F00D1E12B /* Permutation.h */,
+				07223F221B9A833F00D1E12B /* Permutation.m */,
+				07223F231B9A833F00D1E12B /* AdvancedScience.h */,
+				07223F241B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.h */,
+				07223F251B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.m */,
+				07223F261B9A833F00D1E12B /* Database.h */,
+				07223F271B9A833F00D1E12B /* Database.m */,
+			);
+			name = AdvancedScience;
+			sourceTree = "<group>";
+		};
+		07223F371B9AC0B600D1E12B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07223F2F1B9A8CDF00D1E12B /* pi.png */,
+				07223F301B9A8CDF00D1E12B /* pi@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07223EF51B9A7EB600D1E12B /* Pi_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07223F191B9A7EB600D1E12B /* Build configuration list for PBXNativeTarget "Pi_Calculator" */;
+			buildPhases = (
+				07223EF21B9A7EB600D1E12B /* Sources */,
+				07223EF31B9A7EB600D1E12B /* Frameworks */,
+				07223EF41B9A7EB600D1E12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pi_Calculator;
+			productName = Pi_Calculator;
+			productReference = 07223EF61B9A7EB600D1E12B /* Pi_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07223F0E1B9A7EB600D1E12B /* Pi_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07223F1C1B9A7EB600D1E12B /* Build configuration list for PBXNativeTarget "Pi_CalculatorTests" */;
+			buildPhases = (
+				07223F0B1B9A7EB600D1E12B /* Sources */,
+				07223F0C1B9A7EB600D1E12B /* Frameworks */,
+				07223F0D1B9A7EB600D1E12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07223F111B9A7EB600D1E12B /* PBXTargetDependency */,
+			);
+			name = Pi_CalculatorTests;
+			productName = Pi_CalculatorTests;
+			productReference = 07223F0F1B9A7EB600D1E12B /* Pi_CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07223EEE1B9A7EB600D1E12B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Anindya Sengupta";
+				TargetAttributes = {
+					07223EF51B9A7EB600D1E12B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					07223F0E1B9A7EB600D1E12B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 07223EF51B9A7EB600D1E12B;
+					};
+				};
+			};
+			buildConfigurationList = 07223EF11B9A7EB600D1E12B /* Build configuration list for PBXProject "Pi_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07223EED1B9A7EB600D1E12B;
+			productRefGroup = 07223EF71B9A7EB600D1E12B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07223EF51B9A7EB600D1E12B /* Pi_Calculator */,
+				07223F0E1B9A7EB600D1E12B /* Pi_CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07223EF41B9A7EB600D1E12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07223F051B9A7EB600D1E12B /* Main.storyboard in Resources */,
+				07223F0A1B9A7EB600D1E12B /* LaunchScreen.xib in Resources */,
+				07223F311B9A8CDF00D1E12B /* pi.png in Resources */,
+				07223F071B9A7EB600D1E12B /* Images.xcassets in Resources */,
+				07223F321B9A8CDF00D1E12B /* pi@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07223F0D1B9A7EB600D1E12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07223EF21B9A7EB600D1E12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07223F021B9A7EB600D1E12B /* ViewController.m in Sources */,
+				07223F351B9A94AA00D1E12B /* CalculationOperation.m in Sources */,
+				07223F281B9A833F00D1E12B /* Calculator.m in Sources */,
+				07223F2B1B9A833F00D1E12B /* Database.m in Sources */,
+				07223F291B9A833F00D1E12B /* Permutation.m in Sources */,
+				07223EFF1B9A7EB600D1E12B /* AppDelegate.m in Sources */,
+				07223F2A1B9A833F00D1E12B /* SomewhatBiggerNumbersThanYours.m in Sources */,
+				07223EFC1B9A7EB600D1E12B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07223F0B1B9A7EB600D1E12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07223F161B9A7EB600D1E12B /* Pi_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07223F111B9A7EB600D1E12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07223EF51B9A7EB600D1E12B /* Pi_Calculator */;
+			targetProxy = 07223F101B9A7EB600D1E12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07223F031B9A7EB600D1E12B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07223F041B9A7EB600D1E12B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07223F081B9A7EB600D1E12B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07223F091B9A7EB600D1E12B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07223F171B9A7EB600D1E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07223F181B9A7EB600D1E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07223F1A1B9A7EB600D1E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pi_Calculator/PrefixHeader.pch;
+				INFOPLIST_FILE = Pi_Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07223F1B1B9A7EB600D1E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pi_Calculator/PrefixHeader.pch;
+				INFOPLIST_FILE = Pi_Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07223F1D1B9A7EB600D1E12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Pi_CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi_Calculator.app/Pi_Calculator";
+			};
+			name = Debug;
+		};
+		07223F1E1B9A7EB600D1E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Pi_CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pi_Calculator.app/Pi_Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07223EF11B9A7EB600D1E12B /* Build configuration list for PBXProject "Pi_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07223F171B9A7EB600D1E12B /* Debug */,
+				07223F181B9A7EB600D1E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07223F191B9A7EB600D1E12B /* Build configuration list for PBXNativeTarget "Pi_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07223F1A1B9A7EB600D1E12B /* Debug */,
+				07223F1B1B9A7EB600D1E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07223F1C1B9A7EB600D1E12B /* Build configuration list for PBXNativeTarget "Pi_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07223F1D1B9A7EB600D1E12B /* Debug */,
+				07223F1E1B9A7EB600D1E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07223EEE1B9A7EB600D1E12B /* Project object */;
+}

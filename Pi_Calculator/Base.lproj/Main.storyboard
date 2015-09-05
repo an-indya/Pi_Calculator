@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDO-s8-zPf">
+                                <rect key="frame" x="222" y="160" width="156" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="O5R-VM-D8u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DV-V7-pXZ">
+                                <rect key="frame" x="16" y="271" width="568" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="RMJ-HB-leP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saK-1O-I0e">
+                                <rect key="frame" x="233" y="347" width="135" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="8o2-Zv-jed"/>
+                                </constraints>
+                                <state key="normal" title="Start Calculation">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startCalculationButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XVx-WN-CKe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value of Pie is approximately:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXT-d7-3Ka">
+                                <rect key="frame" x="16" y="242" width="225" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="VrH-9O-CQu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(milliseconds)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EN-Sw-PtG">
+                                <rect key="frame" x="248" y="206" width="104" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Wwt-Ec-eKD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="9DV-V7-pXZ" secondAttribute="centerX" id="0ev-JC-Pts"/>
+                            <constraint firstItem="9DV-V7-pXZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="2hN-yK-mAT"/>
+                            <constraint firstItem="kXT-d7-3Ka" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Gqi-aD-ute"/>
+                            <constraint firstAttribute="centerX" secondItem="NDO-s8-zPf" secondAttribute="centerX" id="NUN-fO-Xr5"/>
+                            <constraint firstItem="kXT-d7-3Ka" firstAttribute="top" secondItem="NDO-s8-zPf" secondAttribute="bottom" constant="34" id="QIl-9b-qR5"/>
+                            <constraint firstItem="2EN-Sw-PtG" firstAttribute="top" secondItem="NDO-s8-zPf" secondAttribute="bottom" constant="-2" id="TP7-u1-yfd"/>
+                            <constraint firstItem="saK-1O-I0e" firstAttribute="top" secondItem="9DV-V7-pXZ" secondAttribute="bottom" constant="34" id="fPh-ai-FMo"/>
+                            <constraint firstAttribute="centerX" secondItem="saK-1O-I0e" secondAttribute="centerX" id="gny-rO-eAQ"/>
+                            <constraint firstItem="9DV-V7-pXZ" firstAttribute="top" secondItem="NDO-s8-zPf" secondAttribute="bottom" constant="63" id="mEN-AZ-FCE"/>
+                            <constraint firstAttribute="centerX" secondItem="2EN-Sw-PtG" secondAttribute="centerX" id="t7g-ZE-aaK"/>
+                            <constraint firstAttribute="centerY" secondItem="9DV-V7-pXZ" secondAttribute="centerY" constant="8" id="zkF-8D-kMw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startCalculationButton" destination="saK-1O-I0e" id="mDN-eZ-pkP"/>
+                        <outlet property="timerLabel" destination="NDO-s8-zPf" id="KuB-u4-mmp"/>
+                        <outlet property="txtField" destination="9DV-V7-pXZ" id="D3l-ei-O1S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
